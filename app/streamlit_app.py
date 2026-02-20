@@ -203,8 +203,8 @@ with st.sidebar:
     
     page = option_menu(
         menu_title=None,
-        options=["Squad Overview", "Player Deep Dive", "Opposition Analysis", "Team Performance", "Recommend Playing XI"],
-        icons=["house", "person-badge", "shield-slash", "graph-up", "star-fill"],
+        options=["Player Deep Dive", "Opposition Analysis", "Team Performance", "Recommend Playing XI", "Squad Overview"],
+        icons=["person-badge", "shield-slash", "graph-up", "star-fill", "house"],
         menu_icon="cast", default_index=0,
         styles={
             "container": {"padding": "0!important", "background-color": "transparent"},
